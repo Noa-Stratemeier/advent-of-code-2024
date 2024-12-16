@@ -1,0 +1,12 @@
+[package]
+name = "advent_of_code_2024"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# Each Advent of Code day is implemented as a separate binary.
+# Enter "cargo run --bin day_x" in the terminal to run the solution for day 'x'.
+[[bin]]
+name = "day_1"
+path = "src/day_1/main.rs"
