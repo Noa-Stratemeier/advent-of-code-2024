@@ -4,7 +4,6 @@ use std::fs::File;
 use std::io::{BufRead, BufReader};
 use std::collections::HashMap;
 
-
 fn main() {
     // Solution for part 1
     part_one();
@@ -12,7 +11,6 @@ fn main() {
     // Solution for part 2
     part_two();
 }
-
 
 fn part_one() {
     let (mut left_list, mut right_list) = read_in_lists();
@@ -29,7 +27,6 @@ fn part_one() {
 
     println!("Total distance between the lists: {total_distance}");
 }
-
 
 fn part_two() {
     let (left_list, right_list) = read_in_lists();
@@ -48,7 +45,6 @@ fn part_two() {
 
     println!("Similarity score: {similarity}");
 }
-
 
 
 /* Helper Functions */
