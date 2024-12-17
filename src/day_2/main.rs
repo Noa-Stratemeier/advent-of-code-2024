@@ -21,7 +21,7 @@ fn part_one() {
         }
     }
 
-    println!("Part 1: Safe reports: {safe_reports}");
+    println!("Safe reports: {safe_reports}");
 }
 
 fn part_two() {
@@ -50,7 +50,7 @@ fn part_two() {
         }
     }
 
-    println!("Part 2: Safe reports: {safe_reports}");
+    println!("Safe reports with tolerance: {safe_reports}");
 }
 
 
