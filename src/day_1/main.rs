@@ -5,10 +5,10 @@ use std::io::{BufRead, BufReader};
 use std::collections::HashMap;
 
 fn main() {
-    // Solution for part 1
+    // Solution for part 1 (~1.6ms)
     part_one();
 
-    // Solution for part 2
+    // Solution for part 2 (~1.7ms)
     part_two();
 }
 

@@ -3,10 +3,10 @@
 use regex::Regex;
 
 fn main() {
-    // Solution for part 1
+    // Solution for part 1 (~4.5ms)
     part_one();
 
-    // Solution for part 2
+    // Solution for part 2 (~6.5ms)
     part_two();
 }
 

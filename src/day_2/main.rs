@@ -1,10 +1,10 @@
 /* LINK TO THE PROBLEM STATEMENT: https://adventofcode.com/2024/day/2 */
 
 fn main() {
-    // Solution for part 1
+    // Solution for part 1 (~750µs)
     part_one();
 
-    // Solution for part 2
+    // Solution for part 2 (~1.4ms)
     part_two();
 }
 
